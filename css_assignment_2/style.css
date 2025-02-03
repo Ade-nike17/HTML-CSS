@@ -1,0 +1,149 @@
+/* Start of CSS Reset */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* End of CSS Reset */
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.woff);
+}
+body {
+    font-family: lato;
+    font-weight: 800;
+}
+header {
+    /* background-color: rgb(239, 206, 162); */
+    border-bottom: 10px solid #999999;
+    
+}
+.header-div {
+    width: 50%;
+    margin:auto;
+    padding: 90px 510px 80px 90px;
+    line-height: 1.8;
+}
+.header-div h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.header-div p {
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.header-div p span {
+    color: #009966;
+}
+section {
+    background-color: #666666;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.section-div {
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    padding: 80px 30px 39px 30px;
+    border-bottom: 10px solid #999999;
+    position: relative;
+}
+.section-div h2 {
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #FFBF00;
+    width: fit-content;
+    padding: 10px 30px;
+    position: absolute;
+    top: 3%;
+    left: -1%;
+}
+section p {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.7;
+    padding-top: 17px;
+}
+
+/* Responsiveness for Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .header-div {
+    width: 100%;
+    padding: 45px 260px 40px 20px;
+    margin: 0;
+    
+   }
+   .section-div {
+    width: 100%;
+    padding: 58px 25px 32px 20px;
+   }
+   .section-div h2 {
+    left: 0%;
+    top: 2%;
+   }
+}
+
+/* Responsiveness for mobile phones  */
+@media (max-width: 767px) and (min-width: 375px) {
+    .header-div {
+        width: 100%;
+        padding: 45px 10px 40px 15px;
+        margin: 0;
+        
+    }
+    .section-div {
+    width: 100%;
+    padding: 80px 20px 32px 15px;
+    }
+    .section-div h2 {
+    width: 93%;
+    left: 0%;
+    top: 2%;
+    }
+}
