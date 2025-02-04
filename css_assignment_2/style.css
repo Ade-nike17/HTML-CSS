@@ -63,9 +63,9 @@ header {
     
 }
 .header-div {
-    width: 50%;
+    width: 75%;
     margin:auto;
-    padding: 90px 510px 80px 90px;
+    padding: 90px 360px 80px 240px;
     line-height: 1.8;
 }
 .header-div h2 {
@@ -82,7 +82,7 @@ header {
 }
 section {
     background-color: #666666;
-    height: 50vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
 }
@@ -113,37 +113,37 @@ section p {
 
 /* Responsiveness for Tablet */
 @media (max-width: 1024px) and (min-width: 768px) {
-    .header-div {
+  .header-div {
     width: 100%;
     padding: 45px 260px 40px 20px;
     margin: 0;
     
-   }
-   .section-div {
+  }
+  .section-div {
     width: 100%;
     padding: 58px 25px 32px 20px;
-   }
-   .section-div h2 {
+  }
+  .section-div h2 {
     left: 0%;
     top: 2%;
-   }
+  }
 }
 
 /* Responsiveness for mobile phones  */
 @media (max-width: 767px) and (min-width: 375px) {
-    .header-div {
-        width: 100%;
-        padding: 45px 10px 40px 15px;
-        margin: 0;
-        
-    }
-    .section-div {
+  .header-div {
     width: 100%;
-    padding: 80px 20px 32px 15px;
-    }
-    .section-div h2 {
+    padding: 45px 10px 40px 15px;
+    margin: 0;
+        
+  }
+  .section-div {
+    width: 100%;
+    padding: 100px 20px 32px 15px;
+  }
+  .section-div h2 {
     width: 93%;
     left: 0%;
     top: 2%;
-    }
+  }
 }

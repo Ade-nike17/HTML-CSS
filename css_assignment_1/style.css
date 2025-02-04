@@ -9,16 +9,16 @@ html, body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body { 
-    width: 50%;
+    width: 55%;
     height: 100vh;
 } 
 
 .container {
-    padding: 100px 330px 100px 70px;
+    padding: 100px 270px 100px 70px;
     border: 20px solid #ffffff;
     border-width:15px;
     background-color: #202020;
-    width: 50%;
+    width: 100%;
     margin: auto;
     /* position: absolute; 
     top: 50%; 
@@ -28,12 +28,13 @@ body {
     background-color: #ffffff;
     border-radius: 5px;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.7;
+    
 }
 #body {
-    padding: 100px 65px 70px 50px;
+    padding: 100px 30px 70px 40px;
     /* width: 100%; */
     margin: 0 auto;
 }
@@ -47,7 +48,7 @@ body {
     border-radius: 5px;
     position: absolute;
     top: -20px;
-    left: 50px;
+    left: 15%;
 }
 
 /* Styling for Responsiveness */
