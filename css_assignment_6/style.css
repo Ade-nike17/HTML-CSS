@@ -76,18 +76,18 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 100px;
-    font-family: Gilroy-Medium;
-    font-size: 20px;
-    
+    margin-bottom: 60px;
+    font-family: Gilroy-Medium;    
+}
+#nav-logo:hover {
+    cursor: pointer;
 }
 .right-menu {
     display: flex;
-    /* gap: 50px; */
 }
 .dropdown-menu {
     display: flex;
-    gap: 230px;
+    gap: 160px;
 }
 .second-nav {
     display: flex;
@@ -157,7 +157,7 @@ main {
 
     h1 {
     font-family: Gilroy-Bold;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     position: relative;
     margin-bottom: 12px;
@@ -202,7 +202,7 @@ main {
 #petri-dish {
     position: absolute;
     bottom: 0;
-    right: 52%;
+    right: 40%;
 }
 
 /* Section 2 */
@@ -212,18 +212,18 @@ main {
 }
 .section-two-container{
     display: flex;
-    gap: 320px;
+    gap: 100px;
     align-items: flex-start;
     padding: 50px 0;
     
 }
 .stat {
     display: flex;
-    gap: 90px;
+    gap: 60px;
     align-items: flex-start;
 }
 .stat h3 {
-    font-size: 32px;
+    font-size: 28px;
     font-family: Gilroy-SemiBold;
 }
 .stat-text {
@@ -238,7 +238,7 @@ main {
     
 }
 .one-stop h2{
-    font-size: 36px;
+    font-size: 32px;
     line-height: 48px;
     font-family: Gilroy-Bold;
 }
@@ -313,10 +313,11 @@ main {
 .section-four-header > p {
     text-align:center;
     width: 50%;
+    h3 {
+        font-size: 40px;
+    }
 }
-h3 {
-    font-size: 40px;
-}
+
 .section-four-list {
     display: flex;
     justify-content: center;
@@ -441,7 +442,7 @@ input:focus, select:focus {
     color: #65A3FF;
 }
 #domain, #alias {
-    width: 260px;
+    width: 195px;
 }
 button {
     display: flex;
@@ -462,20 +463,19 @@ button {
 }
 .form-container footer {
     color: #76ACFF;
-    font-size: 22px;
+    /* font-size: 22px; */
 
     a {
     text-decoration: none;
     color: #76ACFF;
     font-weight: 600;
-    font-size: 24px;
     line-height: 20px;
     }
 }
-footer a {
+#faq a {
     color: #7d858b;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
 }
 footer {
     margin-bottom: 7px;
@@ -559,10 +559,10 @@ margin-bottom: 0.5rem;
     margin-top: 40px;
     font-family: Gilroy-SemiBold;
 }
-footer a {
+#footer-seven a {
     color: #7d858b;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
 }
 footer {
     margin-bottom: 7px;
@@ -609,7 +609,10 @@ h4 {
     align-items: flex-end;
     justify-content: flex-end;
     margin-top: 30px;
-    gap: 20px;
+    gap: 5px;
+}
+#main-footer:hover {
+    cursor: pointer;
 }
 
 /* Styling for responsiveness */

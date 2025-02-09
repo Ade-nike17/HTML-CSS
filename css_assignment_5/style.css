@@ -187,8 +187,12 @@ input {
   margin-top:3px;
   outline: none;
 }
+/* .mail label {
+  display: block;
+  margin-bottom: 5px;
+} */
 .mail input {
-  margin-top:20px;
+  display: block;
   width: 75%;
 }
 .card-number-input {
